@@ -1,4 +1,5 @@
 import React from "react";
+import { assets } from "../assets/assets.js";
 import {
   FaInstagram,
   FaLinkedinIn,
@@ -11,7 +12,7 @@ const Footer = () => {
     <div className="font-playfair text-gray-500/80 bg-slate-50 pt-8 px-6 md:px-16 lg:px-24 xl:px-32">
       <div className="flex flex-wrap justify-between gap-12 md:gap-6">
         <div className="max-w-80">
-          <img src="/src/assets/logo.png" alt="logo" className="h-16 md:h-20" />
+          <img src={assets.logo} alt="logo" className="h-16 md:h-20" />
           <p className="text-sm">
             Nestled along pristine shores, Azure Resort combines modern elegance
             with untouched natural beauty to create your ultimate tropical
